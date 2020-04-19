@@ -1,4 +1,4 @@
-# Parcel Demo
+# Parcel React Setup
 
 Easy setup for React using [Parcel 2](https://parceljs.org/)
 
