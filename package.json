@@ -1,0 +1,23 @@
+{
+	"name": "parcel-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel serve index.html -p 3000 --out-dir dist",
+		"clear": "rm -rf .cache && rm -rf node_modules && rm -rf dist",
+		"build": "parcel build index.html --out-dir public"
+	},
+	"keywords": [],
+	"author": "Fernando Martins",
+	"license": "ISC",
+	"browserslist": [ "last 1 Chrome version" ],
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.26.3"
+	}
+}
